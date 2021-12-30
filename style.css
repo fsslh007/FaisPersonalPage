@@ -1,0 +1,134 @@
+* {
+    background-color: hsl(203, 90%, 12%);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+}
+
+.container .slogan {
+    color: white;
+}
+
+p.bio {
+    text-align: center;
+}
+
+hr {
+    width: 100px;
+    height: 2px;
+    background-color: #2199e8;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+img.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px rgba(0 ,0 ,0, 0.7);
+}
+
+h1.name {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+span.slogan {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: rgba(51, 51, 51, 0.7);
+    margin-bottom: 50px;
+}
+
+.social-img ul {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.social-img ul li {
+    display: inline;
+ 
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+
+.social-img ul li:hover {
+    background: #ccc;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.work {
+    margin-bottom: 20px;
+}
+
+.medium-6 label, .medium-12 label {
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+}
+
+
+img.facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}    
+
+img.instragram {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}    
+img.github {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.contact .name, .email, .subject, .message, .phonenum {
+    color: white;
+    text-decoration: underline;
+
+}
