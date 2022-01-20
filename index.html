@@ -68,33 +68,33 @@
          </div>
          <h5>Contact Me</h5>
          <hr>
-         <form action="">
+         <form method="get" action="contact.php">
              <div class="medium-6 columns">
                  <label for="name">Name:
-                     <input type="text" placeholder="Your Name">
+                     <input type="text" placeholder="Your Name" name="name" required>
                  </label>
              </div>
              <div class="medium-6 columns">
                  <label for="Email">Email:
-                     <input type="text" placeholder="Your Email">
+                     <input type="text" placeholder="Your Email" name="email" required>
                  </label>
              </div>
              
              <div class="medium-6 columns">
                 <label for="Email">Subject:
-                    <input type="text" placeholder="Your Subject">
+                    <input type="text" placeholder="Your Subject" name="Subject" required>
                 </label>
             </div>
 
             <div class="medium-6 columns">
-                <label for="Email">Phone Number:
-                    <input type="text" placeholder="Your Phone Number">
+                <label for="phone number">Phone Number:
+                    <input type="text" placeholder="Your Phone Number" name="phonenum">
                 </label>
             </div>
 
              <div class="medium-12 columns">
                  <label for="message">Message:
-                     <textarea name="message" placeholder="None"></textarea>
+                     <textarea name="message" placeholder="None" name="message" required> </textarea>
                  </label>
                  <button class="button">Send</button>
              </div>
