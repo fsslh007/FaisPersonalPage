@@ -108,7 +108,13 @@
                     <label for="message">Message:
                         <textarea name="message" placeholder="None" name="message" required> </textarea>
                     </label>
-                    <button class="button">Send</button>
+                    <button class="button" onclick="myFunction()">Send</button>
+
+                    <script>
+                        function myFunction() {
+                          confirm("Confirm!");
+                        }
+                    </script>+--
                 </div>
         </div>
 
