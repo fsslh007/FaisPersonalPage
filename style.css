@@ -128,43 +128,8 @@ img.logo {
     margin: 2% 5% 0 0;
 }
 
-.about {
-    background: rgb(150, 142, 127);
-    height: 100vh;
-    min-height: 500px;
-}
-
-.t3 {
-    text-align: center;
-    font-size: 2rem;
-    padding-top: 2%;
-    margin-bottom: 0px;
-    text-transform: uppercase;
-    color: rgb(0, 0, 0);;
-}
-
-.logoabout {
-    width: 220px;
-    height: 220px;
-    border-radius: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 0px 0px rgba(0 ,0 ,0, 0.7);
-}
-
-.t4 {
-    text-align: center;
-    padding-top: 2%;
-}
-
-.aboutcontents {
-    text-align: center;
-    padding-top: 2%;
-}
-
 .portfolio {
-    background: hsl(203, 90%, 12%);
+    background: rgb(150, 142, 127);
     height: 120vh;
     min-height: 500px;
 }
@@ -175,7 +140,7 @@ img.logo {
     padding-top: 2%;
     margin-bottom: 0px;
     text-transform: uppercase;
-    color: rgb(255, 255, 255);
+    color: black;
 
 }
 
@@ -192,7 +157,7 @@ hr {
 }
 
 .contact {
-    background: rgb(150, 142, 127);
+    background: hsl(203, 90%, 12%);
     height: 60vh;
     min-height: 500p
 }
@@ -203,14 +168,13 @@ hr {
     padding-top: 2%;
     margin-bottom: 0px;
     text-transform: uppercase;
-    color: rgb(0, 0, 0);
+    color: white;
 
 }
 
 .medium-6 label, .medium-12 label {
-    color: rgb(0, 0, 0);
+    color: white;
     margin: 0 60px 0 60px;
-    font-size: 1.2rem;
 }
 
 .medium-12 button {
